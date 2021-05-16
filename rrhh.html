@@ -5,42 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/stylesheet.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pruebacss.css">
     <title>RRHH</title>
 </head>
 
 <body>
-    <header class="header">
-        <img src="https://i.imgur.com/KhjCcAXs.jpg" alt="logo">
-        <h1>DNA+TECHNOLOGY</h1>
-    </header>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="rrhh.html" class="active">RRHH</a>
-        <form>
-            <select class="right" name="paises">
-                <option value="ARG">ARGENTINA</option>
-                <option value="CHILE">CHILE</option>
-                <option value="BRAZIL">BRAZIL</option>
-                <option value="PERU">PERU</option>
-                <option value="URUGUAY">URUGUAY</option>S
-            </select>
-        </form>
-    </nav>
-    <main>
-        <H3><I>DATA NUMBERS ACTION</I></H3>
-        <img src="https://project-manus.mit.edu/wp-content/uploads/2020/02/277-2776493_we-want-you-uncle-sam-we-want-you.jpg"
-            alt="tio sam" class="center"><br><br>
-        <div class="center">
-            <button class="button button1">Adjuntar CV</button>
-            <button class="button button1">Aplicar en LinkedIn</button>
+  <div class="bg"> 
+    <div class="container-fluid" >
+		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom shadow-sm p-3 mb-5 bg-body rounded">
+		  <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+			<svg class="bi me-2" width="40" height="60"><use xlink:href="#bootstrap"></use></svg>
+            <img src="https://i.imgur.com/KhjCcAXs.jpg" alt="logo">	<span class="fs-3 p-4">DNA+TECHNOLOGY</span>
+		  </a>
+	  
+		  <ul class="nav nav-pills justify-content-center">
+			<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+			<li class="nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
+			<li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+			<li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+			<li class="nav-item"><a href="rrhh.html" class="nav-link active">RRHH</a></li>
+		  </ul>
+		</header>
+	</div>
+<div class="container-fluid">
+    <div class="px-4 pt-1 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold">DATA NUMBERS ACTION</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Estamos buscando gente que quiera romper el mercado del marketing, te estamos buscando a vos!</p>
+          <div class="overflow-hidden" style="max-height: 100vh;">
+            <div class="container px-1">
+              <img src="https://project-manus.mit.edu/wp-content/uploads/2020/02/277-2776493_we-want-you-uncle-sam-we-want-you.jpg" class="img-fluid border rounded-3 shadow-sm mb-1" alt="Example image" width="700" height="500" loading="lazy">
+            </div>
+          </div>
         </div>
-
-    </main>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Adjuntar CV</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Aplicar en LinkedIn</button>
+          </div>
+        </div>
+    </div>    
+</div>
+<div class="container-fluid">
+  <div class=" row">
+    <footer class="mt-auto text-center">
+      <p>DNA+T™ All rights reserved.</p>
+    </footer>
+  </div>
+</div> 
+</div> 
+<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

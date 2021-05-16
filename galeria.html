@@ -5,50 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/stylesheet.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pruebacss.css">
     <title>Galeria</title>
 </head>
 
 <body>
-    <header class="header">
-        <img src="https://i.imgur.com/KhjCcAXs.jpg" alt="logo">
-        <h1>DNA+TECHNOLOGY</h1>
-    </header>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="galeria.html" class="active">Galeria</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="rrhh.html">RRHH</a>
-        <form>
-            <select class="right" name="paises">
-                <option value="ARG">ARGENTINA</option>
-                <option value="CHILE">CHILE</option>
-                <option value="BRAZIL">BRAZIL</option>
-                <option value="PERU">PERU</option>
-                <option value="URUGUAY">URUGUAY</option>S
-            </select>
-        </form>
-    </nav>
+ <div class="bg">  
+    <div class="container-fluid" >
+		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom shadow-sm p-3 mb-5 bg-body rounded">
+            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="60"><use xlink:href="#bootstrap"></use></svg>
+              <img src="https://i.imgur.com/KhjCcAXs.jpg" alt="logo">	<span class="fs-3 p-4">DNA+TECHNOLOGY</span>
+            </a>
+              
+                  <ul class="nav nav-pills">
+                      <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+                      <li class="nav-item"><a href="galeria.html" class="nav-link active">Galeria</a></li>
+                      <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                      <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                      <li class="nav-item"><a href="rrhh.html" class="nav-link">RRHH</a></li>
+                  </ul>   
+          </header>
+	</div>
     <main>
-        <H3><I>DATA NUMBERS ACTION</I></H3>
-        <table>
-            <tr>
-                <th>INVERSION</th>
-                <th>MESES</th>
-                <th>RETORNO %</th>
-            </tr>
-            <tr>
-                <td>USD1000</td>
-                <td>1</td>
-                <td>1000</td>
-            </tr>
-        </table>
-        <h3>Resultados reales</h3>
-        <img class="center" src="https://cdn.searchenginejournal.com/wp-content/uploads/2014/06/0618_NeilPatel12.jpg"
-            alt="humo">
+       <div class="container-fluid"> 
+          <div class="row"> 
+              <div class="col-12 text-center mt-3">
+                  <H2><I>DATA NUMBERS ACTION</I></H2>
+            </div>
+          </div>
+        </div>
+        <div class="container"> 
+            <table class=" table table-striped mx-auto mt-5 mb-5" style="width:60%">
+                <tr>
+                    <th>INVERSION</th>
+                    <th>MESES</th>
+                    <th>RETORNO %</th>
+                </tr>
+                <tr>
+                    <td>USD1000</td>
+                    <td>1</td>
+                    <td>1000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="container-fluid">        
+            <div class="row text-center mt-5">
+                <h3><u> Resultados reales</u></h3>
+            </div>
+            <div class="row">
+                <img class="mx-auto zoom" style="width:max-content" src="https://cdn.searchenginejournal.com/wp-content/uploads/2014/06/0618_NeilPatel12.jpg" alt="humo">
+            </div>    
+        </div>
     </main>
+    <div class="container-fluid">
+        <div class="row">
+          <footer class=" footer text-center ">
+            <p>DNA+T™ All rights reserved.</p>
+          </footer>
+        </div>
+    </div> 
+</div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
