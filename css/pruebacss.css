@@ -8,19 +8,27 @@
   transform: scale(1.25); }
 
 .novedades {
+      padding: 15px; }
+      .novedades_title {
+        font-size: 500%; }
+      .novedades_description {
+        font-size: 150%; }
+      .novedades_price {
+        font-weight: bold; }
+      
+
+@media only screen and (max-width: 600px){      
+.novedades {
   padding: 15px; }
   .novedades_title {
-    font-size: 45px; }
+    font-size: xx-large; }
   .novedades_description {
-    font-size: 35px; }
+    font-size: larger; }
   .novedades_price {
     font-weight: bold; }
+  }
 
-.opacity {
-  background-color: beige;
-  border: 10px black;
-  opacity: 0.5;
-  color: black; }
+
 
 body, html {
   height: 100%; }
@@ -32,3 +40,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+  .containerblur {
+    backdrop-filter: blur(80px);
+}
