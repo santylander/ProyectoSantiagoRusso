@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/pruebacss.css">
   <meta name="description" content="Marketing Web">
-  <meta name="keywords"  content="SEO, Marketing, resultados, SEM, web, engagement">
+  <meta name="keywords" content="SEO, Marketing, resultados, SEM, web, engagement">
   <title>RRHH</title>
 </head>
 
@@ -56,21 +56,47 @@
           </div>
         </div>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <button type="button" class="button-variant btn-lg px-4 me-sm-3">Adjuntar CV</button>
-          <button type="button" class="button-variant color btn-outline-secondary btn-lg px-4">Aplicar en
-            LinkedIn</button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Dejanos tu CV
+          </button>
+          <!-- Button a linked -->
+          <button type="button" class="btn btn-secondary"  data-bs-target="#staticBackdrop">
+            Link a linkedin
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">No te vas a arrepentir</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Este es el primer paso para trabajar con nosotros!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-     <!--Pie de pagina-->
+    <!--Pie de pagina-->
     <div class="container-fluid">
       <div class="row">
-          <footer class=" footer text-center containerblur">
-              <p>DNA+T™ All rights reserved.</p>
-          </footer>
+        <footer class=" footer text-center containerblur">
+          <p>DNA+T™ All rights reserved.</p>
+        </footer>
       </div>
+    </div>
   </div>
-  </div>
-<script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
