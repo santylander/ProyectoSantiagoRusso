@@ -44,4 +44,6 @@ body, html {
   .containerblur {
     backdrop-filter: blur(80px);
 }
-
+.nav-pills { 
+color: rgb(255, 255, 255);  
+}
